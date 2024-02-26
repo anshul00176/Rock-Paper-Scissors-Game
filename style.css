@@ -1,0 +1,80 @@
+*{ 
+  margin:0; 
+  padding:0; 
+  background-color: lightcyan;
+}
+.score_board{ 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 2rem;
+} 
+
+#user_score { 
+  font-size: 3rem;
+} 
+#comp-score{ 
+    font-size: 3rem;
+} 
+.score2{ 
+    margin-left: 25px; 
+} 
+.text {
+    color: blue;
+} 
+.message_container{ 
+    margin-top: 15px;
+    text-align: center;
+    background-color: crimson;
+    color:black;
+    font-weight: 2px; 
+    padding: 5px;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    height:34px; 
+    margin-left: 40%; 
+    border-radius: 20px; 
+    justify-content: center;
+    max-width: fit-content;
+
+}
+.heading{ 
+  background-color: DodgerBlue ;
+  color: #ffff;
+  text-align: center; 
+  height:35px;
+} 
+h2{ 
+    padding-top: 3px;
+    color: black;
+    font-family:'Times New Roman', Times, serif
+}
+.container{ 
+   height:200px; 
+   width:550px; 
+   display: flex;
+   align-items: center;
+   margin-left: 31%;
+} 
+.choices{ 
+    height:135px; 
+    width:135px; 
+    padding: 15px;
+}
+img{ 
+    height:130px; 
+    width:130px; 
+    border-radius: 50%;
+    object-fit: cover;
+} 
+.choices:hover{ 
+    opacity: 50%; 
+    cursor: pointer;
+    background-color: black;
+    border-radius: 50%; 
+    justify-content: center; 
+    align-items: center;
+}
+#final_verdict{ 
+     margin-left: 45%;
+}
